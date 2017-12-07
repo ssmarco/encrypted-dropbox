@@ -3,6 +3,7 @@ Name: mytheme
 ---
 SilverStripe\View\SSViewer:
   themes:
+    - 'hackdaydecember2017'
     - '$default'
 SilverStripe\i18n\i18n:
   default_locale: 'en_US'
