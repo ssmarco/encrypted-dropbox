@@ -3,3 +3,6 @@ Name: myproject
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: mysite
+SilverStripe\Security\Member:
+  extensions:
+    - EncryptedDropboxMemberExtension
