@@ -10,6 +10,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/darkly/bootstrap.min.css">
+    <style type="text/css">
+        .custom-file-control::before {
+            color: #EDEDED;
+        }
+    </style>
 </head>
 <body>
     $Layout
