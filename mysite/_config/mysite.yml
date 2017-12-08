@@ -6,3 +6,6 @@ SilverStripe\Core\Manifest\ModuleManifest:
 SilverStripe\Security\Member:
   extensions:
     - EncryptedDropboxMemberExtension
+SilverStripe\Assets\File:
+  extensions:
+    - EncryptedFileExtension
