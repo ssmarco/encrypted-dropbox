@@ -5,3 +5,4 @@ After: framework/routes#coreroutes
 SilverStripe\Control\Director:
   rules:
     'encrypted-upload//$Action/$ID/$Name': 'EncryptedUploadController'
+    'api//$Action': 'GoogleController'
